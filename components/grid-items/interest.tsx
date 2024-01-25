@@ -1,5 +1,4 @@
 import GridItems from "@/config/site-config";
-import Image from "next/image";
 
 
 const Interest = () => {

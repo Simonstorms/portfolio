@@ -1,8 +1,6 @@
 
 import SocialBox from "@/components/grid-items/social-box";
-import Mentor from "@/components/grid-items/mentor";
 import Projects from "@/components/grid-items/projects";
-import Picture from "@/components/grid-items/picture";
 import About from "@/components/grid-items/about";
 import Interest from "@/components/grid-items/interest";
 import Spotify from "@/components/grid-items/SpotifyNowPlaying";

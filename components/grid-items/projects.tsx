@@ -1,4 +1,4 @@
-import GridItems, { GridItemInterface } from "@/config/site-config";
+import GridItems from "@/config/site-config";
 import {Folder, FolderOpenDot} from "lucide-react";
 import Link from "next/link";
 

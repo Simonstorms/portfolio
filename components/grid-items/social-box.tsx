@@ -1,6 +1,6 @@
-import GridItems, {GridItemInterface} from "@/config/site-config";
+import GridItems from "@/config/site-config";
 import Icon from "@/components/icon";
-import Button from "@/components/button";
+
 import Link from "next/link";
 
 const SocialBox = () => {
