@@ -21,7 +21,7 @@ const GridItems: {[key: string]: GridItemInterface} = {
     "me": {
         description: "My true passion is learning and sharing my <br>knowledge</br>, which is why I started creating Youtube videos about web development, startups, and marketing.",
         buttonTitle: "Toggle",
-        image: "/pp.png",
+        image: "/images/pp.png",
         image2: "",
     },
     "projects": {

@@ -32,7 +32,7 @@ export const LocationMarker = ({ exactZoom, coords }: Location) => {
                 }}
             >
                 <Image
-                    src="/IMG_9585.webp"
+                    src="/images/IMG_9585.webp"
                     alt="memoji knocked out"
                     width={62}
                     height={62}

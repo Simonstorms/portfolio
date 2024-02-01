@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-archia)']
+      },
       colors: {
         primary: "#6178F1",
       },
