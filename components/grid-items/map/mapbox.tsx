@@ -36,7 +36,7 @@ export default function Mapbox({
                 minZoom={0.0000001}
                 mapStyle={style}
                 //mapboxAccessToken={token}
-                mapboxAccessToken="pk.eyJ1Ijoic2ltb25zdG9ybXMiLCJhIjoiY2xyeXd0MXd6MHFteDJqbnVnMDMzejYyNSJ9.l8Gkak-toCAmgndUgLjJTw"
+                mapboxAccessToken="pk.eyJ1Ijoic2ltb25zdG9ybXMiLCJhIjoiY2xyeXd0MXd6MHFteDJqbnVnMDMzejYyNSJ9.l8Gkak-toCAmgndUgLjJTw" // WARNING: this is a private token and should not be published on github
                 initialViewState={{
                     longitude: coords.longitude,
                     latitude: coords.latitude,
