@@ -1,25 +1,39 @@
 "use client";
 
-import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import {FiMoon, FiSun} from "react-icons/fi";
+import ToggleTheme from "@/hooks/toggleThemes";
+
+
 
 export function ThemeToggle() {
-    const { setTheme, theme } = useTheme();
+    const { setTheme, resolvedTheme } = useTheme();
 
     return (
-        <button
-            className="relative inline-flex"
-            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-        >
-            <Sun
-                size="16"
-                className="transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0"
-            />
-            <Moon
-                size="16"
-                className="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100"
-            />
-            <span className="sr-only">Toggle theme</span>
-        </button>
+        <div className="group relative flex h-full w-full items-center justify-center text-3xl text-text">
+
+            <button
+                className="curser-pointer z-10 flex h-16 w-16 items-center justify-center rounded-full bg-background text-text shadow-lg transition-colors duration-100 ease-in-out"
+
+                onClick={() => {
+                    setTheme(resolvedTheme === "light" ? "dark" : "light");
+                }}
+            >
+
+                {resolvedTheme === "light" ? (
+                    <FiSun
+                        suppressHydrationWarning
+                        className="group-hover:scale-110"
+                    />
+                ) : (
+                    <FiMoon
+                        suppressHydrationWarning
+                        className="group-hover:scale-110"
+                    />
+                )}
+
+            </button>
+
+        </div>
     );
 }
