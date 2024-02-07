@@ -44,7 +44,7 @@ export default function SpotifyStats({
         return (
             <div>
                 <SiSpotify size={30} color="#1ED760" />
-                <span className="pb-[4px] pt-[8px]">Now playing:</span>
+                <span className="text-xs">Now playing:</span>
                 <br />
                 <Image
                     width="100"
@@ -72,6 +72,7 @@ export default function SpotifyStats({
     const LastPlayed = () => {
         return (
             <div>
+                <SiSpotify size={30} color="#1ED760" />
                 <span className="pb-[1px]">Offline, Last played:</span>
                 <br />
                 <Link href={randomSong.url}>
@@ -89,9 +90,9 @@ export default function SpotifyStats({
 
 
     return (
-        <div className="group flex h-full w-full flex-col p-8">
+        <div className="group flex h-full w-full flex-col p-4">
 
-            <div className="mt-auto flex flex-col">
+            <div className=" flex flex-col">
                 {props.nowPlaying ? <NowPlaying /> : <LastPlayed />}
             </div>
         </div>
