@@ -5,14 +5,14 @@ import Link from "next/link";
 const Projects = () => {
     return (
         <div>
-            <Link href={GridItems["Github"].buttonLink ?? ""}>
+            <Link href={}>
             <div className="flex items-center">
                 {/* Icon */}
                 <Folder />
                 <div className=" text-neutral-500">{GridItems["projects"].buttonTitle}</div>
             </div>
             </Link>
-            <Link href={GridItems["Github"].buttonLink ?? ""}>
+            <Link href={}>
                 <div className="flex items-center ">
                     {/* Icon */}
                     <FolderOpenDot />

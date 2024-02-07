@@ -13,6 +13,14 @@ export interface GridItemInterface{
     buttonLink2?: string;
     image?: string;
     image2?: string;
+    skill?: string;
+    skill1?: string;
+    skill2?: string;
+    skill3?: string;
+    skill4?: string;
+    skill5?: string;
+    skill6?: string;
+    skill7?: string;
 
 
 }
@@ -33,19 +41,13 @@ const GridItems: {[key: string]: GridItemInterface} = {
 
     },
         "Github": {
-            icon: "github",
-            buttonLink: "https://github.com/batuhanbilginn",
-            color: "#070707",
+            buttonLink: "https://github.com/simonstorms",
         },
         "x": {
-            icon: "x",
-            buttonLink: "https://x.com/batuhanbilginn",
-            color: "#070707",
+            buttonLink: "https://x.com/Simon_gnss",
         },
         "Linkedin": {
-            icon: "Linked",
-            buttonLink: "https://linkedIn.com/batuhanbilginn",
-            color: "#070707",
+            buttonLink: "https://linkedin.com/in/simon-gneuss",
         },
 
 "interest":{
@@ -53,24 +55,19 @@ const GridItems: {[key: string]: GridItemInterface} = {
         description:"coding, ai, ...",
 
 }
+
 ,
-"mentor": {
-        title: "Next.js Mentorship",
-        icon: "superpeer",
-        buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
-}
-,
-"Mentor":{
-        title: "Supabase Mentorship",
-        icon: "superpeer",
-        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
-}
-,
-"project":{
-        title: "makrAI",
-        icon: "github",
-        color: "#070707",
-        buttonLink: "https://github.com/batuhanbilginn/makr-ai",
+"skills":{
+    skill: "HTML5",
+    skill1: "Typescript",
+    skill2: "Tailwind",
+    skill3: "NextJS",
+    skill4: "React",
+    skill5: "Github",
+    skill6: "Webflow",
+    skill7: "Wordpress",
+
+
 }
 ,
 

@@ -1,14 +1,12 @@
 import GridItems from "@/config/site-config";
 import Link from "next/link";
-import Icon from "../icon";
 
-const Mentor = () => {
+const Blog = () => {
     return (
         <Link
             href={GridItems["Mentor"].buttonLink ?? ""}
             className="flex items-center justify-between gap-4"
         >
-            {GridItems["Mentor"].icon && <Icon type={GridItems["Mentor"].icon} color={GridItems["Mentor"].color} />}
             <div className="w-full @lg:text-lg font-semibold">{GridItems["Mentor"].title}</div>
             {/* Price & Promo Container */}
             <div className="">
@@ -21,4 +19,4 @@ const Mentor = () => {
     );
 };
 
-export default Mentor;
+export default Blog;
