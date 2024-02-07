@@ -1,5 +1,4 @@
 import GridItems from "@/config/site-config";
-import {Folder, FolderOpenDot} from "lucide-react";
 import Link from "next/link";
 
 const Projects = () => {
@@ -9,7 +8,7 @@ const Projects = () => {
             <div className="flex flex-col items-center">
                 {/* Icon */}
                 <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0,0,256,256"
-                     width="100px" height="100px">
+                     width="150px" height="150px">
                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
@@ -30,7 +29,7 @@ const Projects = () => {
                 <div className="flex flex-col items-center ">
                     {/* Icon */}
                     <svg xmlns="http://www.w3.org/2000/svg"
-                         viewBox="0,0,256,256" width="100px" height="100px">
+                         viewBox="0,0,256,256" width="150px" height="150px">
                         <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
