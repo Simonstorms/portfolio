@@ -5,7 +5,10 @@ import {FaGithub, FaHtml5, FaReact, FaWordpress} from "react-icons/fa6";
 
 const Interest = () => {
     return (
-        <div className=" p-4 pt-12  grid grid-cols-4">
+        <div className="p-4 pt-12 ">
+        <div className="w-auto flex  justify-center">Skills</div>
+        <div className=" grid grid-cols-4">
+
             <div className="col-span-1 flex flex-col items-center">
                 <div className=""><FaHtml5 size="50px"/></div>
                 <div className="">{GridItems["skills"].skill}</div>
@@ -40,7 +43,7 @@ const Interest = () => {
                 <div className="">{GridItems["skills"].skill7}</div>
             </div>
         </div>
-
+        </div>
     );
 };
 

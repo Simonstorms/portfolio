@@ -9,7 +9,8 @@ export default function Home() {
                 <Link className="flex items-center justify-center" href="http://localhost:3000/">
                     <div className="border  p-3  border-black rounded-full "><IoCloseOutline size={20}/></div>
                 </Link>
-                Imprint
+                <br/>
+                freelancer projects
                 <Footer />
             </div>
         </main>

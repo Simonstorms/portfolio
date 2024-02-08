@@ -27,17 +27,17 @@ export interface GridItemInterface{
 
 const GridItems: {[key: string]: GridItemInterface} = {
     "me": {
-        description: "My true passion is learning and sharing my <br>knowledge</br>, which is why I started creating Youtube videos about web development, startups, and marketing.",
+        description: "My true passion is learning and sharing my knowledge, which is why I started creating Youtube videos about web development, startups, and marketing.",
         buttonTitle: "Toggle",
         image: "/images/pp.png",
         image2: "",
     },
     "projects": {
 
-        buttonLink: "",
-        buttonLink2: "",
-        buttonTitle: "Freelancer Projects",
-        buttonTitle2: "Learnings Projects",
+        buttonLink: "http://localhost:3000/projects",
+        buttonLink2: "http://localhost:3000/blog",
+        buttonTitle: "Coding Projects",
+        buttonTitle2: "Blog Posts",
 
     },
         "Github": {
@@ -77,7 +77,13 @@ const GridItems: {[key: string]: GridItemInterface} = {
 
 }
 ,
+    "cta":{
+        title:"⚡️Available for new projects ⚡",
+        description:"convinced?",
+
+
+    }
+
 
 };
 export default GridItems
-
