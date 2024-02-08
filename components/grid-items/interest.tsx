@@ -3,7 +3,7 @@ import GridItems from "@/config/site-config";
 
 const Interest = () => {
     return (
-        <div>
+        <div className="p-6">
             <div className="">{GridItems["interest"].title}</div>
             {/* text */}
             <div className="flex items-center ">

@@ -34,10 +34,10 @@ const GridItems: {[key: string]: GridItemInterface} = {
     },
     "projects": {
 
-        buttonLink: "https://discord.com/invite/5aXRp49Q4h",
-        buttonLink2: "https://discord.com/invite/5aXRp49Q4h",
-        buttonTitle: "Simon",
-        buttonTitle2: "Websiete",
+        buttonLink: "",
+        buttonLink2: "",
+        buttonTitle: "Freelancer Projects",
+        buttonTitle2: "Learnings Projects",
 
     },
         "Github": {
@@ -54,8 +54,15 @@ const GridItems: {[key: string]: GridItemInterface} = {
         title:"Intresed",
         description:"coding, ai, ...",
 
-}
+},
+    "imprint":{
+        title:"Imprint",
 
+    },
+    "policy":{
+        title:"Policy",
+
+    }
 ,
 "skills":{
     skill: "HTML5",

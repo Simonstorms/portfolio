@@ -4,23 +4,23 @@ import {FaLinkedin, FaSquareGithub, FaSquareXTwitter} from "react-icons/fa6";
 
 const SocialBox = () => {
     return (
-    <div className="flex p-6 pb-0 items-center justify-between">
+    <div className="flex p-14 pt-6 pb-0 items-center justify-between">
         <Link href={GridItems["Github"].buttonLink ?? ""}>
             <div className="flex items-center justify-between">
                 {/* Icon */}
-                <FaSquareGithub   size="80px"/>
+                <FaSquareGithub   size="60px"/>
             </div>
         </Link>
         <Link href={GridItems["Linkedin"].buttonLink ?? ""}>
             <div className="flex items-center justify-between">
                 {/* Icon */}
-                <FaLinkedin  size="80px" />
+                <FaLinkedin  size="60px" />
             </div>
         </Link>
         <Link href={GridItems["x"].buttonLink ?? ""}>
             <div className="flex items-center justify-between">
                 {/* Icon */}
-                <FaSquareXTwitter size="80px"/>
+                <FaSquareXTwitter size="60px"/>
             </div>
         </Link>
     </div>);

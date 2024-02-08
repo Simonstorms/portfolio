@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-           <div>
+           <div className="p-6">
                 <div className=""><Image src={GridItems["me"].image || ""} width={50} height={50} alt="Profile picture of me"/></div>
                 {/* text */}
                 <div className="flex items-center ">
