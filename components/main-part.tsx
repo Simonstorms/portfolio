@@ -11,6 +11,7 @@ import Skills from "@/components/grid-items/skills";
 import Imprint from "@/components/grid-items/imprint";
 import Policy from "@/components/grid-items/policy";
 import Cta from "@/components/grid-items/cta";
+import Experience from "@/components/grid-items/experience/experience";
 const cords = {
     latitude: Number(process.env.MAP_LATITUDE),
     longitude:Number(process.env.MAP_LONGITUDE)
@@ -21,7 +22,8 @@ return (
 
 <div>
 
-    <div className="grid grid-cols-4 grid-rows-8 gap-4">
+    <div className="grid  [grid-auto-columns:285px] [grid-auto-rows:132.5px] grid-cols-1 gap-5 m:grid-cols-2  xl:grid-cols-4
+   ">
         <div className="shadow-xl col-span-2 row-span-2  dark:bg-[#0a0d0f] rounded-[2rem] bg-white">
             <div className=""><About/></div>
         </div>
@@ -32,7 +34,7 @@ return (
             </Suspense>
         </div>
         <div className="  col-span-2 row-span-1 rounded-[2rem]  dark:bg-[#0a0d0f] bg-white"><SocialBox/></div>
-        <div className="  col-span-1 row-span-4 rounded-[2rem]  dark:bg-[#0a0d0f]  bg-white">About me</div>
+        <div className="  col-span-1 row-span-4 rounded-[2rem]  dark:bg-[#0a0d0f]  bg-white"><Experience /></div>
         <div className="  col-span-2 row-span-1 rounded-[2rem]  dark:bg-[#0a0d0f]  bg-white"><Interest/></div>
         <div className="  col-span-1 row-span-2 rounded-[2rem]   dark:bg-[#0a0d0f] bg-white"><Spotify/></div>
         <div className=" rounded-[2rem] col-span-2 row-span-2 dark:bg-[#0a0d0f]  bg-white"><Skills/></div>
