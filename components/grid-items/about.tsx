@@ -4,12 +4,14 @@ import Image from "next/image";
 
 const About = () => {
     return (
-           <div className="p-6">
-                <div className=""><Image src={GridItems["me"].image || ""} width={50} height={50} alt="Profile picture of me"/></div>
+           <div className="p-8">
+                <div className="mb-4"><Image src={GridItems["me"].image || ""} width={100} height={100} alt="Profile picture of me"/></div>
                 {/* text */}
-                <div className="flex items-center ">
-                    <div className=" text-neutral-500">{GridItems["me"].description}</div>
-                </div>
+                <p className="leading-8">
+                    Hello 👋, I'm
+                    <span className="font-bold mx-2 text-2xl">Simon</span>
+                    a Software developer from Berlin. I am currently studying Software Engineering at the CODE University of Applied Sciences in Berlin.
+                </p>
             </div>
 
     );

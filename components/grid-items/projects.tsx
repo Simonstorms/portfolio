@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Projects = () => {
     return (
-        <div className="p-6">
+        <div className="p-6 mt-12">
         <div>
             <Link href={GridItems["projects"].buttonLink || ""}>
                 <div className="flex flex-col items-center">

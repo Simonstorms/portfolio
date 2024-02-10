@@ -25,17 +25,17 @@ export const LocationMarker = ({ exactZoom, coords }: Location) => {
             latitude={coords?.latitude}
         >
             <div
-                className="h-24 w-24 rounded-full border-4 border-primary bg-trans opacity-80 transition-all duration-1000"
+                className="h-24 w-24 rounded-full border-4 border-primary bg-blue-200 opacity-80 transition-all duration-1000"
                 style={{
                     transform: `scale(${Math.min(Math.max(0.1, (exactZoom - 2) / 10), 1)}
           )`,
                 }}
             >
                 <Image
-                    src="/images/IMG_9585.webp"
+                    src="/images/sun.png"
                     alt="memoji knocked out"
-                    width={62}
-                    height={62}
+                    width={71}
+                    height={71}
                     className={clsx(
                         "pointer-events-none absolute inset-0 top-2 m-auto transform rounded-full transition duration-500 ease-in-out "
                     )}

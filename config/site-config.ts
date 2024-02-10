@@ -27,7 +27,6 @@ export interface GridItemInterface{
 
 const GridItems: {[key: string]: GridItemInterface} = {
     "me": {
-        description: "My true passion is learning and sharing my knowledge, which is why I started creating Youtube videos about web development, startups, and marketing.",
         buttonTitle: "Toggle",
         image: "/images/pp.png",
         image2: "",
