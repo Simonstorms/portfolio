@@ -26,7 +26,7 @@ export default function Contribution() {
                 )}
             </button>
             {contributionOpen && (
-                <div className="absolute bottom-0 left-0 z-40 flex w-full flex-col items-start justify-center rounded-md bg-secondary p-4 pb-10 shadow-md">
+                <div className="absolute bottom-0 left-0 z-40 flex w-full flex-col items-start justify-center rounded-md bg-gray-100 p-4 pb-10 shadow-md">
                     <p className="text-xs font-semibold text-text">Mapbox GL JS </p>
                     <Link
                         href="https://www.mapbox.com/about/maps/"
