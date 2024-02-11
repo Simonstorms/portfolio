@@ -28,7 +28,7 @@ export default function Home() {
                                 <div className="absolute inset-0  transform -rotate-12 -translate-y-6 translate-x-6">
                                     {/* New container div for the image */}
                                     <div className="relative h-full  overflow-hidden rounded-[1rem] w-full scale-75">
-                                        <Image src={"/images/innomed.png"} layout={"fill"} objectFit={"cover"}
+                                        <Image src={""} layout={"fill"} objectFit={"cover"}
                                                alt={"Angled box image"}/>
                                     </div>
                                 </div>
@@ -41,14 +41,11 @@ export default function Home() {
                         </div>
                         <div className="collapse-content">
                             <div className="">
-                                <div className="text-2xl mb-5">Innomed Saxony</div>
-                                <div className="mb-2">The "InnoMed Saxony" project aims to network players in the fields
-                                    of medicine and business in Saxony and to accelerate medical technology transfer.
-                                </div>
+                                <div className="text-2xl mb-5">Building this portfolio</div>
+                                <div className="mb-2">...</div>
                                 <ul className="mb-2">
-                                    <li>- Supports from basic research to market launch</li>
-                                    <li>- Assistance with funding applications and recruitment</li>
-                                    <li>- hosted events: networking, moderated talks, workshops</li>
+                                    <li>to be fixed </li>
+
                                 </ul>
                             </div>
 

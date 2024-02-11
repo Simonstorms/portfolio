@@ -42,13 +42,13 @@ export default function Home() {
                         <div className="collapse-content">
                             <div className="">
                                 <div className="text-2xl mb-5">Innomed Saxony</div>
-                                <div className="mb-2">The "InnoMed Saxony" project aims to network players in the fields
+                                <div className="mb-2">The &quot;InnoMed Saxony&quot; project aims to network players in the fields
                                     of medicine and business in Saxony and to accelerate medical technology transfer.
                                 </div>
                                 <ul className="mb-2">
-                                    <li>- Supports from basic research to market launch</li>
-                                    <li>- Assistance with funding applications and recruitment</li>
-                                    <li>- hosted events: networking, moderated talks, workshops</li>
+                                    <li>Supports from basic research to market launch</li>
+                                    <li>Assistance with funding applications and recruitment</li>
+                                    <li>hosted events: networking, moderated talks, workshops</li>
                                 </ul>
                             </div>
 
@@ -95,15 +95,12 @@ export default function Home() {
                             </div>
                             <div className="collapse-content">
                                 <div className="">
-                                    <div className="text-2xl mb-5">Innomed Saxony</div>
-                                    <div className="mb-2">The "Innomed Saxony" project aims to network players in the
-                                        fields of medicine and business in Saxony and to accelerate medical technology
-                                        transfer.
-                                    </div>
+                                    <div className="text-2xl mb-5">Ab in die Mitte</div>
+                                    <div className="mb-2"></div>
                                     <ul className="mb-2">
-                                        <li>- Supports from basic research to market launch</li>
-                                        <li>- Assistance with funding applications and recruitment</li>
-                                        <li>- hosted events: networking, moderated talks, workshops</li>
+                                        <li>took over this website</li>
+                                        <li></li>
+                                        <li></li>
                                     </ul>
                                 </div>
 
@@ -152,15 +149,12 @@ export default function Home() {
                                 </div>
                                 <div className="collapse-content">
                                     <div className="">
-                                        <div className="text-2xl mb-5">Innomed Saxony</div>
-                                        <div className="mb-2">The "InnoMed Saxony" project aims to network players in
-                                            the fields of medicine and business in Saxony and to accelerate medical
-                                            technology transfer.
-                                        </div>
+                                        <div className="text-2xl mb-5">Questiontime</div>
+                                        <div className="mb-2"></div>
                                         <ul className="mb-2">
-                                            <li>- Supports from basic research to market launch</li>
-                                            <li>- Assistance with funding applications and recruitment</li>
-                                            <li>- hosted events: networking, moderated talks, workshops</li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
                                         </ul>
                                     </div>
 
