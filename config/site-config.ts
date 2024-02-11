@@ -55,7 +55,7 @@ const GridItems: {[key: string]: GridItemInterface} = {
 
 },
     "imprint":{
-        title:"Imprint",
+        title:"Legal Notice",
 
     },
     "policy":{

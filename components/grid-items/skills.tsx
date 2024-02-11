@@ -6,18 +6,18 @@ import {FaGithub, FaHtml5, FaReact, FaWordpress} from "react-icons/fa6";
 const Interest = () => {
     return (
         <div className="p-4 pt-14 ">
-        <div className=" grid grid-cols-4">
+        <div className=" grid grid-cols-2 gap-8 sm:gap-0 sm:grid-cols-4">
 
-            <div className="col-span-1 mb-14 flex flex-col items-center">
+            <div className="col-span-1  sm:mb-14 flex flex-col items-center">
                 <div className=""><FaHtml5 size="40px"/></div>
                 <div className="">{GridItems["skills"].skill}</div>
 
             </div>
-            <div className="col-span-1  flex flex-col items-center ">
+            <div className="col-span-1  sm:mb-14 flex flex-col items-center ">
                 <div className=""><SiTypescript size="40px"/></div>
                 <div className="">{GridItems["skills"].skill1}</div>
             </div>
-            <div className="col-span-1 flex flex-col items-center ">
+            <div className="col-span-1   flex flex-col items-center ">
                 <div className=""><SiTailwindcss size="40px"/></div>
                 <div className="">{GridItems["skills"].skill2}</div>
             </div>

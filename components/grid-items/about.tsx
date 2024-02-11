@@ -10,7 +10,7 @@ const About = () => {
                 <p className="leading-8">
                     Hello 👋, I'm
                     <span className="font-bold mx-2 text-2xl">Simon</span>
-                    a Software developer from Berlin. I am currently studying Software Engineering at the CODE University of Applied Sciences in Berlin.
+                    a Freelance Software Developer from Berlin. I am currently studying Software Engineering at the CODE University of Applied Sciences in Berlin.
                 </p>
             </div>
 
