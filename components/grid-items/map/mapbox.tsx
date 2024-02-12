@@ -5,14 +5,12 @@ import Controls from "./map_controls";
 import { LocationMarker } from "./map_location";
 import useMap from "./map_functions";
 import "@/styles/mapbox-gl.css";
-import {token} from "@/components/grid-items/map/token";
 
-
-export default function Mapbox({
-                                          coords,
-                                      }: {
+export default function Mapbox({coords}: {
     coords: { latitude: number; longitude: number };
 }) {
+
+    console.log(coords)
     const {
         setUncontrolledZoom,
         mapRef,
@@ -25,7 +23,14 @@ export default function Mapbox({
     const projection: Projection = {
         name: "globe",
     };
-    console.log(token)
+    console.log(style)
+console.log(exactZoom)
+    const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
+
+    if (!token) {
+        return "missing token"
+    }
+
     return (
         <div className="relative h-full w-full">
             <Map
@@ -35,8 +40,7 @@ export default function Mapbox({
                 maxZoom={coords ? 11 : 20}
                 minZoom={0.0000001}
                 mapStyle={style}
-                //mapboxAccessToken={token}
-                mapboxAccessToken="pk.eyJ1Ijoic2ltb25zdG9ybXMiLCJhIjoiY2xyeXd0MXd6MHFteDJqbnVnMDMzejYyNSJ9.l8Gkak-toCAmgndUgLjJTw"
+                mapboxAccessToken={token}
                 initialViewState={{
                     longitude: coords.longitude,
                     latitude: coords.latitude,

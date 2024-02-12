@@ -1,7 +1,5 @@
-import GridItems from "@/config/site-config";
 import Link from "next/link";
 import {ImArrowUpRight2} from "react-icons/im";
-import Image from "next/image";
 import ExperienceCard from "@/components/grid-items/experience/card";
 
 const Experience = () => {
