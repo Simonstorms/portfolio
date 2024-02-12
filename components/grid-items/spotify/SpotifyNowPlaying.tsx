@@ -18,7 +18,7 @@ export default async function Spotify() {
     const songData = await getNowPlaying(data.access_token);
     const offlineList = [
         {
-            song: "Shreksophone",
+            song: "",
             artist: "Vonzual",
             url: "https://open.spotify.com/track/779lj5kPd4pH5TIIl8uzJ5",
             artistUrl: "https://open.spotify.com/artist/5QdEbQJ3ylBnc3gsIASAT5",
