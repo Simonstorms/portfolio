@@ -34,7 +34,8 @@ export default function useMap({
             startTransition(() => {
                 setStyle("mapbox://styles/simonstorms/clrziecc000an01pndst5bnox");
             });
-        } else {
+        }
+        else{
             startTransition(() => {
                 setStyle("mapbox://styles/simonstorms/clrzid43b00t401plav3m0jlg");
             });
@@ -86,21 +87,7 @@ export default function useMap({
             setTransitioning,
         };
 
-    // hide all labels
-    // const show = false;
-    // const mapboxMap = mapRef.current?.getMap();
-    // if (mapboxMap) {
-    //   console.log(mapboxMap.getStyle().layers[0]);
-    //   mapboxMap.getStyle().layers?.forEach(function (layer) {
-    //     if (layer.type === "symbol" && layer.id !== "my-data-label") {
-    //       mapboxMap.setLayoutProperty(
-    //         layer.id,
-    //         "visibility",
-    //         show ? "visible" : "none"
-    //       );
-    //     }
-    //   });
-    // }
+
 
     return {
         setUncontrolledZoom,

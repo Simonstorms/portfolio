@@ -10,7 +10,6 @@ export default function Mapbox({coords}: {
     coords: { latitude: number; longitude: number };
 }) {
 
-    console.log(coords)
     const {
         setUncontrolledZoom,
         mapRef,
@@ -24,7 +23,6 @@ export default function Mapbox({coords}: {
         name: "globe",
     };
     console.log(style)
-console.log(exactZoom)
     const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
     if (!token) {

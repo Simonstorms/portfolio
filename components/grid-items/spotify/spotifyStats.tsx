@@ -5,6 +5,7 @@ import SpotifyText from "./spotifyText";
 import { useEffect, useState } from "react";
 import {SiSpotify} from "react-icons/si";
 import Image from "next/image";
+import "@/styles/MusicBars.css";
 
 type OfflineSong = {
     song: string;
@@ -24,7 +25,7 @@ export default function SpotifyStats({
 
     useEffect(() => {
         const interval = setInterval(async () => {
-            const props = await fetch("/api/spotify").then((res) => res.json());
+            const props = await fetch("/api/spotify/").then((res) => res.json());
             setProps(props);
         }, 3000);
         return () => clearInterval(interval);
@@ -44,27 +45,40 @@ export default function SpotifyStats({
         return (
             <div>
                 <SiSpotify size={30} color="#1ED760" />
-                <span className="text-xs">Now playing:</span>
+
                 <br />
+                <div className="flex -mt-2 justify-center">
                 <Image
-                    width="100"
-                    height="100"
+                    width="140"
+                    height="140"
                     src={props.albumImageUrl ?? ""}
                     alt="Album cover"
-                    style={{ objectFit: 'cover' }}
+                    className="mx-auto"
 
                 />
-
+                </div>
+            <div className="flex justify-between">
+            <div>
+                <div className="mt-6">
                 <Link href={props.url ?? ""} target="_blank" rel="norefferer">
                     <SpotifyText>{songName}</SpotifyText>
                 </Link>
-                <span className="text-sm text-gray-400">
-          by:{" "}
+                </div>
+                <span className=" leading-6 text-gray-400">
+
                     <Link href={props.artistUrl ?? ""} target="_blank" rel="norefferer">
-            {props.artist}
-          </Link>
-        </span>
-                <br />
+                        {props.artist}
+                    </Link>
+                </span>
+            </div>
+                <div className="mt-auto mb-2 mr-2 bars">
+                    <div className="bars__item"></div>
+                    <div className="bars__item"></div>
+                    <div className="bars__item"></div>
+                    <div className="bars__item"></div>
+                </div>
+            </div>
+
             </div>
         );
     };
@@ -76,12 +90,13 @@ export default function SpotifyStats({
                 <span className=" pb-[1px]">Offline, Last played:</span>
                 <br />
                 <Link href={randomSong.url}>
-                    <span className="text-2xl font-bold">{randomSong.song}</span>
+                    <span className="text-xl font-bold">{randomSong.song}</span>
                 </Link>
                 <br />
                 <span className="font-silka text-sm text-gray-400">
           by: <Link href={randomSong.artistUrl}>{randomSong.artist}</Link>
         </span>
+
                 <br />
             </div>
         );
@@ -90,10 +105,11 @@ export default function SpotifyStats({
 
 
     return (
-        <div className="group flex h-full w-full flex-col p-4">
+        <div className="group flex h-full w-full flex-col p-4
+       ">
 
             <div className=" flex flex-col">
-                {props.nowPlaying ? <NowPlaying /> : <LastPlayed />}
+                {!props.nowPlaying || (props.artist=== "Unknown")  ?  <LastPlayed /> : <NowPlaying />}
             </div>
         </div>
     );
