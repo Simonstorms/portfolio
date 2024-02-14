@@ -65,8 +65,9 @@ const Experience = () => {
             <div className=" rounded-full mx-16 border-4 ">
                 <div className="box-border rounded-full bg-white px-3 py-1 text-text">
                     <Link
-                        href="htpp://localhost:3000"
+                        href="/simon_gneuss_cv.pdf"
                         className="flex items-center gap-2 whitespace-nowrap"
+                        download="cv"
                     >
                         <span className="">Full CV</span>
                         <div className="">

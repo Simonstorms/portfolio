@@ -54,9 +54,10 @@ return (
         </div>
         <div className=" col-span-1 rounded-[2rem] sm:col-span-2 sm:row-span-2 row-span-4 dark:bg-[#0a0d0f]  bg-white"><Skills/></div>
 
-        <div className=" xl:block items-center hidden rounded-[2rem] col-span-1 row-span-1  dark:bg-[#0a0d0f]  bg-white"><Imprint/>
+        <div className=" xl:block items-center hidden rounded-[2rem] col-span-1 row-span-1  dark:bg-[#0a0d0f]  bg-white">
+            <Imprint/>
         </div>
-        <div className=" rounded-[2rem] col-span-1 row-span-2  dark:bg-[#0a0d0f]  bg-white"><ThemeToggle/></div>
+        <div  className=" rounded-[2rem] col-span-1 row-span-2  dark:bg-[#0a0d0f]  bg-white"><ThemeToggle/></div>
         <div className=" block items-center xl:hidden rounded-[2rem] col-span-1 row-span-1  dark:bg-[#0a0d0f]  bg-white"><Imprint/></div>
         <div className=" rounded-[2rem]  col-span-1 row-span-1  dark:bg-[#0a0d0f]  bg-white"><Policy/></div>
 
