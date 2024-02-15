@@ -86,15 +86,14 @@ export default function SpotifyStats({
     const LastPlayed = () => {
         return (
             <div>
-                <div className="mb-24"><SiSpotify size={30} color="#1ED760" /></div>
+                <div className="mb-36"><SiSpotify size={30} color="#1ED760" /></div>
                 <span className=" pb-[1px]">Offline, Last played:</span>
                 <br />
                 <Link href={randomSong.url}>
                     <span className="text-xl font-bold">{randomSong.song}</span>
                 </Link>
                 <br />
-                <span className="font-silka text-sm text-gray-400">
-          by: <Link href={randomSong.artistUrl}>{randomSong.artist}</Link>
+                <span className="font-silka text-sm text-gray-400"><Link href={randomSong.artistUrl}>{randomSong.artist}</Link>
         </span>
 
                 <br />

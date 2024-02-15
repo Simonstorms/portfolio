@@ -45,7 +45,7 @@ export default function Home() {
                                 <div className="mb-2">The &quot;InnoMed Saxony&quot; project aims to network players in the fields
                                     of medicine and business in Saxony and to accelerate medical technology transfer.
                                 </div>
-                                <ul className="mb-2">
+                                <ul className="mb-2 list-disc list-inside">
                                     <li>Supports from basic research to market launch</li>
                                     <li>Assistance with funding applications and recruitment</li>
                                     <li>hosted events: networking, moderated talks, workshops</li>
@@ -54,10 +54,7 @@ export default function Home() {
 
 
                             <div className=" rounded-full w-24 mx-3 border-4 ">
-                                <Link
-                                    href="https://innomedsaxony.de"
-
-                                >
+                                <Link href="https://innomedsaxony.de">
                                     <div
                                         className="  gap-2 whitespace-nowrap flex items-center box-border rounded-full bg-white px-4 py-1 text-text">
 
@@ -96,18 +93,20 @@ export default function Home() {
                             <div className="collapse-content">
                                 <div className="">
                                     <div className="text-2xl mb-5">Ab in die Mitte</div>
-                                    <div className="mb-2"></div>
-                                    <ul className="mb-2">
-                                        <li>took over this website</li>
-                                        <li></li>
-                                        <li></li>
+                                    <div className="mb-2">The Ab in die Mitte! Die City-Offensive Sachsen initiative, launched in 2004 in Saxony, Germany, encourages vibrant urban life through over 500 projects from 140+ cities and communities. It focuses on:</div>
+                                    <ul className="mb-2  list-disc list-inside">
+                                        <li>Balancing non-investment and investment activities to revitalize city centers.</li>
+                                        <li>Enhancing multifunctionality and encouraging public participation in development strategies.</li>
+                                        <li>Utilizing public-private partnerships to foster innovative, sustainable urban development and regional architectural identity.</li>
+
                                     </ul>
+
                                 </div>
 
 
                                 <div className=" rounded-full w-24 mx-3 border-4 ">
                                     <Link
-                                        href="https://innomedsaxony.de"
+                                        href="https://www.abindiemitte-sachsen.de/"
 
                                     >
                                         <div
@@ -160,10 +159,7 @@ export default function Home() {
 
 
                                     <div className=" rounded-full w-24 mx-3 border-4 ">
-                                        <Link
-                                            href="https://innomedsaxony.de"
-
-                                        >
+                                        <Link href="https://question-time.co.uk">
                                             <div
                                                 className="  gap-2 whitespace-nowrap flex items-center box-border rounded-full bg-white px-4 py-1 text-text">
 
