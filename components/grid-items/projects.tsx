@@ -10,9 +10,7 @@ const Projects = () => {
                     {/* Icon */}
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256"
                          width="150px" height="150px">
-                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                           stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                           font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        <g fill="none"
                         >
                             <g transform="scale(5.33333,5.33333)">
                                 <path d="M40,12h-18l-4,-4h-10c-2.2,0 -4,1.8 -4,4v8h40v-4c0,-2.2 -1.8,-4 -4,-4z"
@@ -22,9 +20,7 @@ const Projects = () => {
                                     fill="#339af0"></path>
                             </g>
                         </g>
-                        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                           stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                           font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        <g fill="#ffffff"
                         >
                             <g transform="translate(80,110) scale(0.2,0.2)" id="overlay">
                                 <path
@@ -47,9 +43,7 @@ const Projects = () => {
                         {/* Icon */}
                         <svg xmlns="http://www.w3.org/2000/svg"
                              viewBox="0,0,256,256" width="150px" height="150px">
-                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                               stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                               font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            <g fill="none"
                             >
                                 <g transform="scale(5.33333,5.33333)">
                                     <path
