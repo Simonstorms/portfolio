@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body  className={`${archia.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem><
-          div className="flex items-center min-h-screen dark:bg-[#0a0d0f] bg-[#f8f2f2] ">{children}</div>
+          div className="flex items-center min-h-screen dark:bg-black  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] bg-[#f8f2f2] ">{children}</div>
         </ThemeProvider>
       </body>
     </html>

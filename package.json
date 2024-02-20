@@ -15,8 +15,10 @@
     "auto-text-size": "^0.2.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "framer-motion": "^11.0.5",
     "lucide-react": "^0.299.0",
     "mapbox-gl": "^3.1.2",
+    "mini-svg-data-uri": "^1.4.4",
     "next": "^14.1.0",
     "next-connect": "^1.0.0-next.4",
     "next-themes": "^0.2.1",
@@ -25,7 +27,7 @@
     "react-icons": "^5.0.1",
     "react-map-gl": "^7.1.7",
     "swr": "^2.2.4",
-    "tailwind-merge": "^2.2.0"
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "@types/node": "^20",

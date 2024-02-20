@@ -22,7 +22,7 @@ return (
 
 <div>
 
-    <div className="grid  [grid-auto-rows:132.5px] gap-5 sm:grid-cols-2  xl:grid-cols-4 grid-cols-1
+    <div className="grid   [grid-auto-rows:132.5px] gap-5 sm:grid-cols-2  xl:grid-cols-4 grid-cols-1
    ">
         <div className="shadow-xl col-span-1 sm:col-span-2  row-span-3 sm:row-span-2 dark:bg-[#0a0d0f] rounded-[2rem] bg-white">
             <div className=""><About /></div>
