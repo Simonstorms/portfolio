@@ -1,6 +1,8 @@
+"use client"
 import Link from "next/link";
 import {ImArrowUpRight2} from "react-icons/im";
 import ExperienceCard from "@/components/grid-items/experience/card";
+import { motion } from "framer-motion";
 
 const Experience = () => {
     return (
@@ -61,9 +63,12 @@ const Experience = () => {
                 />
 
             </div>
-
-            <div className=" rounded-full mx-16 border-4 ">
-                <div className="box-border rounded-full bg-white px-3 py-1 text-text">
+            <motion.div
+                whileHover={{scale: 1.1}}
+                transition={{type: "spring", stiffness: 400, damping: 10}}
+            >
+            <div className=" rounded-full dark:border-[#31353b] mx-16 border-4 ">
+                <div className="box-border rounded-full dark:bg-[#0a0d0f] bg-white px-3 py-1 text-text">
                     <Link
                         href="/simon_gneuss_cv.pdf"
                         className="flex items-center gap-2 whitespace-nowrap"
@@ -76,6 +81,7 @@ const Experience = () => {
                     </Link>
                 </div>
             </div>
+        </motion.div>
         </div>
     )
         ;

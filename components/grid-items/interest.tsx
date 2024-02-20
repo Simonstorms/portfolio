@@ -7,7 +7,7 @@ const Interest = () => {
             <div className="">{GridItems["interest"].title}</div>
             {/* text */}
             <div className="flex items-center ">
-                <div className=" text-neutral-500">{GridItems["interest"].description}</div>
+                <div className=" text-neutral-500"><div className="hidden xl:block">{GridItems["interest"].description}</div>{GridItems["interest"].description2}</div>
             </div>
         </div>
 
