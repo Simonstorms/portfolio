@@ -12,7 +12,7 @@ import Imprint from "@/components/grid-items/imprint";
 import Policy from "@/components/grid-items/policy";
 import Cta from "@/components/grid-items/cta";
 import Experience from "@/components/grid-items/experience/experience";
-import Animated from "@/app/layouts/Animation-main";
+import Animated from "@/layouts/Animation-main";
 const cords = {
     latitude: Number(process.env.NEXT_PUBLIC_MAP_LATITUDE),
     longitude:Number(process.env.NEXT_PUBLIC_MAP_LONGITUDE)

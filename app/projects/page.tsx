@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <main className="w-full max-w-[640px] mx-auto">
             <div className="px-8  p-10 ">
-                <Link className="flex items-center mb-5 justify-center" href="http://localhost:3000/">
+                <Link className="flex items-center mb-5 justify-center" href="/">
                     <div className="border  p-3  border-black rounded-full "><IoCloseOutline size={20}/></div>
                 </Link>
                 <div className="flex justify-center p-8 px-12  font-bold text-5xl">Projects</div>

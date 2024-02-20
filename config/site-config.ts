@@ -34,8 +34,8 @@ const GridItems: {[key: string]: GridItemInterface} = {
     },
     "projects": {
 
-        buttonLink: "http://localhost:3000/projects",
-        buttonLink2: "http://localhost:3000/blog",
+        buttonLink: "/projects",
+        buttonLink2: "/blog",
         buttonTitle: "Coding Projects",
         buttonTitle2: "Blog Posts",
 
