@@ -93,7 +93,7 @@ export default function SpotifyStats({
                     <span className="text-xl font-bold">{randomSong.song}</span>
                 </Link>
                 <br />
-                <span className="font-silka text-sm text-gray-400"><Link href={randomSong.artistUrl}>{randomSong.artist}</Link>
+                <span className="font-silka mb-2  text-sm text-gray-400"><Link href={randomSong.artistUrl}>{randomSong.artist}</Link>
         </span>
 
                 <br />

@@ -5,6 +5,7 @@ export interface GridItemInterface{
     icon?: string;
     username?: string;
     description?: string;
+    description2?: string;
     color?: string;
     buttonTitle?: string;
     buttonTitle2?: string;
@@ -50,8 +51,10 @@ const GridItems: {[key: string]: GridItemInterface} = {
         },
 
 "interest":{
-        title:"Intresed",
-        description:"coding, ai, ...",
+        title:"My Interests",
+        description:
+            "If I'm not coding, I'm probably vibing to hip-hop music. ",
+        description2:"Into AI, math, crypto and startups, always tuning into the next big thing.",
 
 },
     "imprint":{

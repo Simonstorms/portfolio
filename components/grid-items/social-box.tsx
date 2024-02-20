@@ -4,7 +4,7 @@ import {FaLinkedin, FaSquareGithub, FaSquareXTwitter} from "react-icons/fa6";
 
 const SocialBox = () => {
     return (
-    <div className="flex p-14 pt-6 pb-0 items-center justify-between">
+    <div className="flex xl:px-20 px-6 pt-9  pb-0 items-center justify-between">
         <Link href={GridItems["Github"].buttonLink ?? ""}>
             <div className="flex items-center justify-between">
                 {/* Icon */}

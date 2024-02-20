@@ -8,7 +8,7 @@ const SpotifyText = ({ children }: { children: string }) => {
     return (
         <AutoTextSize
             mode="oneline"
-            className=" leading-3  font-bold"
+            className=" leading-5  font-bold"
             maxFontSizePx={20}
         >
             {children}
