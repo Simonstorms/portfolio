@@ -12,6 +12,7 @@ import Imprint from "@/components/grid-items/imprint";
 import Policy from "@/components/grid-items/policy";
 import Cta from "@/components/grid-items/cta";
 import Experience from "@/components/grid-items/experience/experience";
+import Animated from "@/app/layouts/Animation-main";
 const cords = {
     latitude: Number(process.env.NEXT_PUBLIC_MAP_LATITUDE),
     longitude:Number(process.env.NEXT_PUBLIC_MAP_LONGITUDE)
@@ -19,7 +20,7 @@ const cords = {
 const MainPart = () => {
 
 return (
-
+<Animated>
 <div>
 
     <div className="grid   [grid-auto-rows:132.5px] gap-5 sm:grid-cols-2  xl:grid-cols-4 grid-cols-1
@@ -64,6 +65,7 @@ return (
 
     </div>
 </div>
+</Animated>
 );
 };
 
