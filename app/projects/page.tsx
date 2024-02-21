@@ -13,7 +13,7 @@ export default function Home() {
         <main className="w-full max-w-[640px] mx-auto">
             <div className="px-8  p-10 ">
                 <Link className="flex items-center mb-5 justify-center" href="/">
-                    <div className="border  p-3  border-black rounded-full "><IoCloseOutline size={20}/></div>
+                    <div className="border  p-3  border-black rounded-full "><IoCloseOutline  size={20}/></div>
                 </Link>
                 <div className="flex justify-center p-8 px-12  font-bold text-5xl">Projects</div>
 
@@ -33,7 +33,7 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <button className="absolute bottom-4 left-4 p-2 bg-white rounded-full shadow-lg">
+                                <button className="absolute bottom-4 left-4 p-2 bg-white dark:bg-black rounded-full shadow-lg">
                                     <MdOutlineExpandMore/>
                                 </button>
 
@@ -53,10 +53,10 @@ export default function Home() {
                             </div>
 
 
-                            <div className=" rounded-full w-24 mx-3 border-4 ">
+                            <div className=" rounded-full dark:border-[#31353b] w-24 mx-3 border-4 ">
                                 <Link href="https://innomedsaxony.de">
                                     <div
-                                        className="  gap-2 whitespace-nowrap flex items-center box-border rounded-full bg-white px-4 py-1 text-text">
+                                        className="  gap-2 whitespace-nowrap flex items-center box-border rounded-full bg-white  dark:bg-[#0a0d0f] px-4 py-1 text-text">
 
                                         <span className="">Web</span>
                                         <div className=""><ImArrowUpRight2/></div>
@@ -84,7 +84,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <button className="absolute bottom-4 left-4 p-2 bg-white rounded-full shadow-lg">
+                                    <button className="absolute bottom-4 left-4 p-2 bg-white dark:bg-black rounded-full shadow-lg">
                                         <MdOutlineExpandMore/>
                                     </button>
 
@@ -104,13 +104,13 @@ export default function Home() {
                                 </div>
 
 
-                                <div className=" rounded-full w-24 mx-3 border-4 ">
+                                <div className=" rounded-full dark:border-[#31353b]  w-24 mx-3 border-4 ">
                                     <Link
                                         href="https://www.abindiemitte-sachsen.de/"
 
                                     >
                                         <div
-                                            className="  gap-2 whitespace-nowrap flex items-center box-border rounded-full bg-white px-4 py-1 text-text">
+                                            className="  gap-2 whitespace-nowrap flex items-center box-border rounded-full dark:bg-[#0a0d0f] bg-white px-4 py-1 text-text">
 
                                             <span className="">Web</span>
                                             <div className=""><ImArrowUpRight2/></div>
@@ -140,7 +140,7 @@ export default function Home() {
                                         </div>
 
                                         <button
-                                            className="absolute bottom-4 left-4 p-2 bg-white rounded-full shadow-lg">
+                                            className="absolute bottom-4 left-4 p-2 bg-white dark:bg-black rounded-full shadow-lg">
                                             <MdOutlineExpandMore/>
                                         </button>
 
@@ -158,10 +158,10 @@ export default function Home() {
                                     </div>
 
 
-                                    <div className=" rounded-full w-24 mx-3 border-4 ">
+                                    <div className=" rounded-full w-24 mx-3 dark:border-[#31353b]  border-4 ">
                                         <Link href="https://question-time.co.uk">
                                             <div
-                                                className="  gap-2 whitespace-nowrap flex items-center box-border rounded-full bg-white px-4 py-1 text-text">
+                                                className="  gap-2 whitespace-nowrap flex items-center box-border dark:bg-[#0a0d0f] rounded-full bg-white px-4 py-1 text-text">
 
                                                 <span className="">Web</span>
                                                 <div className=""><ImArrowUpRight2/></div>

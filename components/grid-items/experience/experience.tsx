@@ -67,7 +67,7 @@ const Experience = () => {
                 whileHover={{scale: 1.1}}
                 transition={{type: "spring", stiffness: 400, damping: 10}}
             >
-            <div className=" rounded-full dark:border-[#31353b] mx-16 border-4 ">
+            <div className=" rounded-full dark:border-[#31353b]  mx-16 border-4 ">
                 <div className="box-border rounded-full dark:bg-[#0a0d0f] bg-white px-3 py-1 text-text">
                     <Link
                         href="/simon_gneuss_cv.pdf"
