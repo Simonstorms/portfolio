@@ -28,8 +28,7 @@ export default function Home() {
                                 <div className="absolute inset-0  transform -rotate-12 -translate-y-6 translate-x-6">
                                     {/* New container div for the image */}
                                     <div className="relative h-full  overflow-hidden rounded-[1rem] w-full scale-75">
-                                        <Image src={""} layout={"fill"} objectFit={"cover"}
-                                               alt={"Angled box image"}/>
+
                                     </div>
                                 </div>
 
@@ -44,7 +43,7 @@ export default function Home() {
                                 <div className="text-2xl mb-5">Building this portfolio</div>
                                 <div className="mb-2">...</div>
                                 <ul className="mb-2">
-                                    <li>to be fixed </li>
+                                    <li>to be announced </li>
 
                                 </ul>
                             </div>
