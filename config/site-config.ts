@@ -62,7 +62,7 @@ const GridItems: {[key: string]: GridItemInterface} = {
 
     },
     "policy":{
-        title:"Policy",
+        title:"Privacy Policy",
 
     }
 ,
