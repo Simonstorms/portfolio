@@ -15,6 +15,13 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    typography: {
+      DEFAULT: { // this is for prose class
+        css: {
+          color: "black"
+        }
+      }
+    },
     extend: {
       fontFamily: {
         sans: ['var(--font-archia)']
@@ -32,7 +39,7 @@ const config: Config = {
       }
     }
   },
-  plugins: [require("daisyui"),
+  plugins: [require('@tailwindcss/typography'),require("daisyui"),
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
           {
