@@ -32,11 +32,10 @@ const config: Config = {
       boxShadow: {
         grid: "0px 4px 10px 0px rgba(0, 0, 0, 0.05);",
         'custom': '20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff',
+        'custom2': '20px 20px 60px red, -20px -20px 60px blue',
       },
 
-      backgroundImage: {
-        'gradient-custom': 'linear-gradient(145deg, #ffffff, #e6e6e6)',
-      }
+
     }
   },
   plugins: [require('@tailwindcss/typography'),require("daisyui"),
