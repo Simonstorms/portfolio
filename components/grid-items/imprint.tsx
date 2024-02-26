@@ -15,7 +15,7 @@ const Imprint = () => {
                 transition={{type: "spring", stiffness: 400, damping: 10}}
             >
                 <Link href="/imprint">
-                    <div className="border p-4 border-black rounded-full"><ImArrowUpRight2/></div>
+                    <div className="border p-4 border-black dark:border-white rounded-full"><ImArrowUpRight2/></div>
                 </Link>
                 </motion.div >
 
