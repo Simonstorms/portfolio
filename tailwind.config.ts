@@ -18,7 +18,7 @@ const config: Config = {
     typography: {
       DEFAULT: { // this is for prose class
         css: {
-          color: "black"
+          color: "black dark:white"
         }
       }
     },
@@ -35,7 +35,7 @@ const config: Config = {
       },
 
       backgroundImage: {
-        'gradient-custom': 'linear-gradient(145deg, #ffffff, #e6e6e6)',
+        'gradient-custom': 'linear-gradient(145deg, #666666, #e6e6e6)',
       }
     }
   },
