@@ -4,7 +4,6 @@ import { useTheme } from "next-themes";
 import {FiMoon, FiSun} from "react-icons/fi";
 
 
-
 export function ThemeToggle() {
     const { setTheme, resolvedTheme } = useTheme();
 
