@@ -27,7 +27,8 @@ export default function Home() {
 
                 <div className="">
 
-                    <label onClick="">
+                    <label onClick={() => {
+                    }}>
                         <div className="collapse rounded-[2rem] mb-4 dark:bg-[#0a0d0f]  bg-white  ">
 
                             <input type="radio" name="my-accordion-3"/>
@@ -84,7 +85,8 @@ export default function Home() {
                             </div>
                         </div>
                     </label>
-                    <label onClick="">
+                    <label onClick={() => {
+                    }}>
                         <div className="collapse rounded-[2rem] mb-4 dark:bg-[#0a0d0f]  bg-white  ">
                             <input type="radio" name="my-accordion-3"/>
                             <div className="collapse-title text-xl pe-4 font-medium">
@@ -151,7 +153,8 @@ export default function Home() {
                             </div>
                         </div>
                     </label>
-                    <label onClick="">
+                    <label onClick={() => {
+                    }}>
 
                         <div className="collapse rounded-[2rem] mb-4 dark:bg-[#0a0d0f]  bg-white  ">
                             <input type="radio" name="my-accordion-3"/>
