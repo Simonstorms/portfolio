@@ -181,7 +181,8 @@ export default function Home() {
                             <div className="collapse-content">
                                 <div className="">
                                     <div className="text-2xl mb-5">Questiontime</div>
-                                    <div className="mb-2"></div>
+                                    <div className="mb-2">Landing page with a bookable calendar feature.<br/> The event was in Manchester, and many exciting ideas got pitched to the two VCs
+                                    </div>
                                     <ul className="mb-2">
                                         <li></li>
                                         <li></li>

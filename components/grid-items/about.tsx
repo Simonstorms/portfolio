@@ -12,7 +12,7 @@ const About = () => {
                 Hello 👋, I&apos;m
                 {/*<span className="font-bold mx-2 text-2xl">Simon</span>*/}
                 <span className="mx-2" style={{display: "inline-block"}}>
-                    <Image src={"/images/logo.png"} alt={"Logo which says Simon"} width={80} height={24}/>
+                    <Image src={"/images/logo.png"} alt={"Logo which says Simon"} width={70} height={24}/>
   </span>
                 a Freelance Software Developer from Berlin. I am currently studying Software Engineering at the CODE
                 University of Applied Sciences in Berlin.
