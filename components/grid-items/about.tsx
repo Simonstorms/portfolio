@@ -9,12 +9,12 @@ const About = () => {
                                          alt="Profile picture of me"/></div>
             {/* text */}
             <p className="leading-8">
-                Hello 👋, I&apos;m
+                Hello 👋, I&apos;m&nbsp;
                 {/*<span className="font-bold mx-2 text-2xl">Simon</span>*/}
-                <span className="mx-2" style={{display: "inline-block"}}>
+                <span className="mx-1" style={{display: "inline-block"}}>
                     <Image src={"/images/logo.png"} alt={"Logo which says Simon"} width={70} height={24}/>
   </span>
-                a Freelance Software Developer from Berlin. I am currently studying Software Engineering at the CODE
+                &nbsp;a Freelance Software Developer from Berlin. I am currently studying Software Engineering at the CODE
                 University of Applied Sciences in Berlin.
             </p>
 
