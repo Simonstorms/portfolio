@@ -40,7 +40,7 @@ export default function SpotifyStats({
         longSongName?.length > 28
             ? longSongName?.substring(0, 25) + "..."
             : longSongName;
-    const songArtists = props.artist!.length > 25
+    const songArtists =  props.artist && props.artist!.length > 25
         ? props.artist!.substring(0, 23) + "..."
         : props.artist!
 
