@@ -40,6 +40,9 @@ export default function SpotifyStats({
         longSongName?.length > 28
             ? longSongName?.substring(0, 25) + "..."
             : longSongName;
+    const songArtists = props.artist!.length > 25
+        ? props.artist!.substring(0, 23) + "..."
+        : props.artist!
 
     const NowPlaying = () => {
         return (
@@ -67,7 +70,7 @@ export default function SpotifyStats({
                 <span className=" leading-6 text-gray-400">
 
                     <Link href={props.artistUrl ?? ""} target="_blank" rel="norefferer">
-                        {props.artist}
+                        {songArtists}
                     </Link>
                 </span>
             </div>
