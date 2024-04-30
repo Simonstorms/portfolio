@@ -14,6 +14,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     fontSize: {
       xs: "11.11px",
@@ -26,6 +27,7 @@ const config: Config = {
       "4xl": "39.81px",
       "5xl": "47.78px",
     },
+
     typography: {
       DEFAULT: {
         css: {
