@@ -2,36 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-    body{
-        @apply h-full dark:bg-neutral-950 dark:text-neutral-50 text-neutral-900 antialiased;
-    }
+@layer base {
+  body {
+    @apply h-full dark:bg-neutral-950 dark:text-neutral-50 text-neutral-900 antialiased;
+  }
 }
-
 
 @layer utilities {
-    .animation-delay-200 {
-        animation-delay: 0.2s;
-    }
-    .animation-delay-400 {
-        animation-delay: 0.4s;
-    }
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
 }
 
-
-
-
-
-
-
-
-
 .mapboxgl-ctrl-logo {
-    display: none !important;
+  display: none !important;
 }
 
 .react-transform-wrapper {
-    overflow: visible !important;
+  overflow: visible !important;
 }
-
