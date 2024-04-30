@@ -5,10 +5,8 @@ import Link from "next/link";
 const Cta = () => {
   return (
     <div className=" flex flex-col   justify-between">
-      <div className="p-3 xl:p-5">
-        <div className="flex w-auto justify-center">
-          {GridItems["cta"].title}
-        </div>
+      <div className="p-2 xl:p-5">
+        <div className="flex  justify-center">{GridItems["cta"].title}</div>
         {/* text */}
         <div className="flex w-auto justify-center ">
           <div className=" text-neutral-500">
