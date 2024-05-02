@@ -5,7 +5,7 @@ import Link from "next/link";
 const Cta = () => {
   return (
     <div className=" flex flex-col   justify-between">
-      <div className="p-2 xl:p-5">
+      <div className="pt-4">
         <div className="flex  justify-center">{GridItems["cta"].title}</div>
         {/* text */}
         <div className="flex w-auto justify-center ">
@@ -38,7 +38,7 @@ const Cta = () => {
           </div>
         </div>
       </div>
-      <div className="mt-3 xl:mt-1  flex justify-center ">
+      <div className="mt-5  flex justify-center ">
         <Image
           src={"/images/mac.png"}
           width={100}
