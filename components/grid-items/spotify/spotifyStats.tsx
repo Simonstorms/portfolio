@@ -37,8 +37,8 @@ export default function SpotifyStats({
       : props.song ?? "";
 
   const songName =
-    longSongName?.length > 28
-      ? longSongName?.substring(0, 25) + "..."
+    longSongName?.length > 27
+      ? longSongName?.substring(0, 23) + "..."
       : longSongName;
   const songArtists =
     props.artist && props.artist!.length > 24
@@ -62,12 +62,12 @@ export default function SpotifyStats({
         </div>
         <div className="flex justify-between">
           <div>
-            <div className="mt-6">
+            <div className="mt-6 text-sm">
               <Link href={props.url ?? ""} target="_blank" rel="norefferer">
                 <SpotifyText>{songName}</SpotifyText>
               </Link>
             </div>
-            <span className=" leading-6 text-gray-400">
+            <span className=" text-sm leading-6 text-gray-400">
               <Link
                 href={props.artistUrl ?? ""}
                 target="_blank"
