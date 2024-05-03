@@ -176,7 +176,7 @@ export default function Home() {
           handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall
           erfolgt die Löschung nach Fortfall dieser Gründe.
         </p>
-        <h3 className="py-3 text-3xl font-bold py-7">
+        <h3 className=" text-3xl font-bold py-7">
           Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf
           dieser Website
         </h3>
@@ -229,7 +229,7 @@ export default function Home() {
           jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf
           erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
         </p>
-        <h3 className="py-3 text-3xl font-bold py-7">
+        <h3 className=" text-3xl font-bold py-7">
           Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie
           gegen Direktwerbung (Art. 21 DSGVO)
         </h3>
