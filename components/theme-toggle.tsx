@@ -7,7 +7,7 @@ export function ThemeToggle() {
   const { setTheme, resolvedTheme } = useTheme();
 
   return (
-    <div className="group  relative flex h-full w-full items-center justify-center text-3xl text-text">
+    <div className="group  relative flex h-full w-full items-center justify-center text-3xl ">
       <motion.div
         whileHover={{ rotate: 90 }}
         transition={{ stiffness: 400, damping: 10 }}
