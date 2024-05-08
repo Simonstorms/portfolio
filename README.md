@@ -6,6 +6,7 @@ This is a personal portfolio website developed using Next.js, Tailwind CSS and t
 ## Live Demo
 
 You can find the live demo of the website at [simongneuss.com](https://www.simongneuss.com/)
+
 ![Simon Gneu_ - Freelance Software Engineer](https://github.com/Simonstorms/portfolio/assets/93795566/0879c76f-2bcc-4fc8-9d85-baa708654ab7)
 
 ## Technologies Used
