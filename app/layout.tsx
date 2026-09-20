@@ -6,6 +6,7 @@ import localFont from "@next/font/local";
 export const metadata: Metadata = {
   title: "Simon Gneuß - Freelance Software Engineer",
   description: "Showcasing my work and my experience",
+  robots: { index: false, follow: true },
 };
 
 const archia = localFont({
