@@ -13,7 +13,7 @@
     "auto-text-size": "^0.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^14.10.1",
+    "framer-motion": "^14.11.0",
     "lucide-react": "^1.70.0",
     "mapbox-gl": "^3.34.2",
     "mini-svg-data-uri": "^1.4.4",
