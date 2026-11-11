@@ -1,5 +1,5 @@
 "use client"
-import { Map, type Projection } from "react-map-gl";
+import { Map, type ProjectionSpecification } from "react-map-gl/mapbox";
 import Contribution from "./map_contribution";
 import Controls from "./map_controls";
 import { LocationMarker } from "./map_location";
@@ -19,7 +19,7 @@ export default function Mapbox({coords}: {
         setTransitioning,
     } = useMap({ coords });
 
-    const projection: Projection = {
+    const projection: ProjectionSpecification = {
         name: "globe",
     };
     console.log(style)

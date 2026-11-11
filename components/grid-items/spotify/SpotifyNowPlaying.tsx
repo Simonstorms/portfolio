@@ -13,50 +13,52 @@ export interface SpotifyResponse {
     };
 }
 
+const offlineList = [
+    {
+        song: "Remeber This",
+        artist: "NF",
+        url: "https://open.spotify.com/track/5dMKsEQSlR2ITYpScl7UMd?si=18fc1d8f9dac47c2",
+        artistUrl: "https://open.spotify.com/artist/6fOMl44jA4Sp5b9PpYCkzz",
+        albumImageUrl: "",
+    },
+    {
+        song: "Flaming Hot Cheetos",
+        artist: "Clairo",
+        url: "https://open.spotify.com/track/1F6IbA7di42uPc3cff8PXV?si=fb29a08ded984b02",
+        artistUrl: "https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag",
+        albumImageUrl: "",
+
+    },
+    {
+        song: "Grüne Augen Lügen nicht",
+        artist: "Jeremias",
+        url: "https://open.spotify.com/track/4lptrKbbydmqa74YS0a1rt?si=21b8c9e8107447db",
+        artistUrl: "https://open.spotify.com/artist/011bJBtG8SdkBqBiSpBllF",
+        albumImageUrl: "",
+    },
+    {
+        song: "Chemie Chemie Ya",
+        artist: "Kraftklub",
+        url: "https://open.spotify.com/track/3eb1Qq8uqSDoRKib8z7vf3?si=e8118e5c477648b1",
+        artistUrl: "https://open.spotify.com/artist/0MZ55DwuMQ1B2TXq9lcrE4",
+        albumImageUrl: "",
+    },
+    {
+        song: "negativer rizz",
+        artist: "Ski Aggu",
+        url: "https://open.spotify.com/track/1H6dj3OsebaM4Eb67fnoTg?si=8a9f8d6741e546bd",
+        artistUrl: "https://open.spotify.com/artist/6CP5wWvO8oIxedESJNCN4H",
+        albumImageUrl: "",
+    },
+];
+
+const pickOfflineSong = () =>
+    offlineList[Math.floor(Math.random() * offlineList.length)];
+
 export default async function Spotify() {
     const data = await getToken();
     const songData = await getNowPlaying(data.access_token);
-    const offlineList = [
-        {
-            song: "Remeber This",
-            artist: "NF",
-            url: "https://open.spotify.com/track/5dMKsEQSlR2ITYpScl7UMd?si=18fc1d8f9dac47c2",
-            artistUrl: "https://open.spotify.com/artist/6fOMl44jA4Sp5b9PpYCkzz",
-            albumImageUrl: "",
-        },
-        {
-            song: "Flaming Hot Cheetos",
-            artist: "Clairo",
-            url: "https://open.spotify.com/track/1F6IbA7di42uPc3cff8PXV?si=fb29a08ded984b02",
-            artistUrl: "https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag",
-            albumImageUrl: "",
-
-        },
-        {
-            song: "Grüne Augen Lügen nicht",
-            artist: "Jeremias",
-            url: "https://open.spotify.com/track/4lptrKbbydmqa74YS0a1rt?si=21b8c9e8107447db",
-            artistUrl: "https://open.spotify.com/artist/011bJBtG8SdkBqBiSpBllF",
-            albumImageUrl: "",
-        },
-        {
-            song: "Chemie Chemie Ya",
-            artist: "Kraftklub",
-            url: "https://open.spotify.com/track/3eb1Qq8uqSDoRKib8z7vf3?si=e8118e5c477648b1",
-            artistUrl: "https://open.spotify.com/artist/0MZ55DwuMQ1B2TXq9lcrE4",
-            albumImageUrl: "",
-        },
-        {
-            song: "negativer rizz",
-            artist: "Ski Aggu",
-            url: "https://open.spotify.com/track/1H6dj3OsebaM4Eb67fnoTg?si=8a9f8d6741e546bd",
-            artistUrl: "https://open.spotify.com/artist/6CP5wWvO8oIxedESJNCN4H",
-            albumImageUrl: "",
-        },
-    ];
-
-    const randomSong =
-        offlineList[Math.floor(Math.random() * offlineList.length)];
+    const randomSong = pickOfflineSong();
 
     return <SpotifyStats props={songData.props} randomSong={randomSong} />;
 }

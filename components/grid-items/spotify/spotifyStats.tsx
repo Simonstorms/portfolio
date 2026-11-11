@@ -45,7 +45,7 @@ export default function SpotifyStats({
       ? props.artist!.substring(0, 27) + "..."
       : props.artist!;
 
-  const NowPlaying = () => {
+  const renderNowPlaying = () => {
     return (
       <div>
         <SiSpotify size={30} color="#1ED760" />
@@ -88,7 +88,7 @@ export default function SpotifyStats({
     );
   };
 
-  const LastPlayed = () => {
+  const renderLastPlayed = () => {
     return (
       <div>
         <div className="mb-40">
@@ -118,9 +118,9 @@ export default function SpotifyStats({
     >
       <div className=" flex flex-col">
         {!props.nowPlaying || props.artist === "Unknown" ? (
-          <LastPlayed />
+          renderLastPlayed()
         ) : (
-          <NowPlaying />
+          renderNowPlaying()
         )}
       </div>
     </div>

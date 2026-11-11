@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import localFont from "@next/font/local";
+import localFont from "next/font/local";
 
 export const metadata: Metadata = {
   title: "Simon Gneuß - Freelance Software Engineer",
