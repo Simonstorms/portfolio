@@ -1,7 +1,7 @@
 "use client";
 import clsx from "clsx";
 import Image from "next/image";
-import { Marker } from "react-map-gl";
+import { Marker } from "react-map-gl/mapbox";
 
 
 type Coords = {

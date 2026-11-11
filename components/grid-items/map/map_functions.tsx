@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
 import { startTransition, useEffect, useRef, useState } from "react";
-import { MapRef } from "react-map-gl";
+import { MapRef } from "react-map-gl/mapbox";
 import useThemeChecker from "@/hooks/useThemeChecker";
 
 export default function useMap({

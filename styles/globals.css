@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@config "../tailwind.config.ts";
+
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
 
 @layer base {
   body {
@@ -8,13 +21,12 @@
   }
 }
 
-@layer utilities {
-  .animation-delay-200 {
-    animation-delay: 0.2s;
-  }
-  .animation-delay-400 {
-    animation-delay: 0.4s;
-  }
+@utility animation-delay-200 {
+  animation-delay: 0.2s;
+}
+
+@utility animation-delay-400 {
+  animation-delay: 0.4s;
 }
 
 .mapboxgl-ctrl-logo {

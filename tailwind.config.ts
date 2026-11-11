@@ -50,8 +50,6 @@ const config: Config = {
     },
   },
   plugins: [
-    require("@tailwindcss/typography"),
-    require("daisyui"),
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {
